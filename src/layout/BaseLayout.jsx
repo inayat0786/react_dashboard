@@ -4,6 +4,7 @@ import { Sidebar } from "../components";
 const BaseLayout = () => {
   return (
     <main className="page-wrapper">
+     
       <Sidebar />
       <div className="content-wrapper">
         <Outlet />
